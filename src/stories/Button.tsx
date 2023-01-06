@@ -8,7 +8,12 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
 
 export const Button = ({ theme, label, ...props }: ButtonProps) => {
   return (
-    <button style={theme ? theme : {}} {...props} className="default-button">
+    <button
+      style={theme ? theme : {}}
+      className="default-button"
+      onClick={() => alert('You clicked a button!')}
+      {...props}
+    >
       {label}
     </button>
   );

@@ -1,5 +1,5 @@
 import React, { ReactNode } from 'react';
-import { ThemeContext } from '../theme/theme-context';
+import { ThemeContext } from './ThemeContext';
 import { Theme } from './types';
 
 interface ThemeProviderProps {

@@ -1,7 +1,7 @@
 import { Button } from './components/Button';
-import { ThemeProvider } from './theme/ThemeProvider';
 import useTheme from './hooks/useTheme';
-import defaultTheme from './theme/defaultTheme';
+import { ThemeProvider } from './theme/ThemeProvider';
+import { createTheme } from './theme/createTheme';
 import type { Theme } from './theme/types';
 
-export { Button, ThemeProvider, useTheme, Theme, defaultTheme };
+export { Button, ThemeProvider, useTheme, Theme, createTheme };

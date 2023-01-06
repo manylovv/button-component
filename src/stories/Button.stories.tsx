@@ -22,4 +22,7 @@ Primary.args = {
   type: 'button',
   name: 'Example',
   disabled: false,
+  onClick: () => {
+    alert('Hello!');
+  },
 };

@@ -18,7 +18,7 @@ Styling overriding with your own css rules using "theme" property:
 <Button
   label="Click me!"
   theme={{
-    color: white,
+    color: 'white',
     backgroundColor: '#4169E1',
     borderRadius: '8px'
   }}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import { Button } from './Button';
+import { Button } from '../components/Button';
 
 export default {
   title: 'Example/Button',
@@ -14,11 +14,6 @@ export const Primary = Template.bind({});
 
 Primary.args = {
   label: 'Click me',
-  theme: {
-    backgroundColor: 'dodgerblue',
-    color: 'white',
-    borderRadius: '8px',
-  },
   type: 'button',
   name: 'Example',
   disabled: false,

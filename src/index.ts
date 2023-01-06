@@ -1,6 +1,6 @@
 import { Button } from './components/Button';
-import { ThemeProvider } from './theme/theme-provider';
-import useTheme from './hooks/use-theme';
-import defaultTheme from './theme/default-theme';
+import { ThemeProvider } from './theme/ThemeProvider';
+import useTheme from './hooks/useTheme';
+import defaultTheme from './theme/defaultTheme';
 
 export { Button, ThemeProvider, useTheme, defaultTheme };

@@ -1,5 +1,5 @@
 import React from 'react';
-import useTheme from '../hooks/use-theme';
+import useTheme from '../hooks/useTheme';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   label: string;
